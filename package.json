@@ -1,0 +1,31 @@
+{
+  "name": "sails-prototyper",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/_mocha test/bootstrap.test.js test/main/**/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "supertest": "^2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elribonazo/sails-prototyper.git"
+  },
+  "author": "elribonazo <elribonazo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elribonazo/sails-prototyper/issues"
+  },
+  "homepage": "https://github.com/elribonazo/sails-prototyper"
+}
